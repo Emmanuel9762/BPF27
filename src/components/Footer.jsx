@@ -90,29 +90,6 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-
-            {/* Newsletter */}
-            <div className="space-y-4">
-              <h3 className="text-lg font-bold">Newsletter</h3>
-              <p className="text-orange-50 text-sm">
-                Subscribe to our newsletter to receive updates about our projects and initiatives.
-              </p>
-              <form className="space-y-2">
-                <div className="flex flex-col space-y-2">
-                  <input
-                    type="email"
-                    placeholder="Enter your email"
-                    className="px-4 py-2 rounded-md text-gray-800 w-full"
-                  />
-                  <button
-                    type="submit"
-                    className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition-colors duration-200"
-                  >
-                    Subscribe
-                  </button>
-                </div>
-              </form>
-            </div>
           </div>
         </div>
 

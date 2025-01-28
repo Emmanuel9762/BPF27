@@ -9,7 +9,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="src\assets\hero.jpg"
+          src="./src/assets/hero.jpg"
           alt="Community project in action"
           className="w-full h-full object-cover"
         />

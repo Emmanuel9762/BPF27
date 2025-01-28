@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const ProjectCard = ({ image, title, description, readMoreLink }) => {
@@ -28,19 +28,19 @@ const FeaturedProjects = () => {
 
   const projects = [
     {
-      image: "../src/assets/man-watering-small-plant.jpg",
+      image: "./src/assets/man-watering-small-plant.jpg",
       title: "Sustainable Water Initiative",
       description: "Providing clean water access to rural communities through innovative water filtration systems.",
       readMoreLink: "#"
     },
     {
-      image: "../src/assets/Solar.jpeg",
+      image: "./src/assets/Solar.jpeg",
       title: "Renewable Energy Cooperative",
       description: "Empowering local businesses to transition to renewable energy sources and reduce their carbon footprint.",
       readMoreLink: "#"
     },
     {
-      image: "../src/assets/Youth-lead.jpg",
+      image: "./src/assets/Youth-lead.jpg",
       title: "Youth Leadership Program",
       description: "Cultivating the next generation of community leaders through skill-building workshops and mentorship.",
       readMoreLink: "#"

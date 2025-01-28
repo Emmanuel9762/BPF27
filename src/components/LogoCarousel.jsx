@@ -11,37 +11,37 @@ const LogoCarousel = ({ logos = [] }) => {
     {
       id: 1,
       name: "Partner 1",
-      imageUrl: "src/assets/Logo1.jpeg",
+      imageUrl: "./src/assets/Logo1.jpeg",
       alt: "Partner 1 logo"
     },
     {
       id: 2,
       name: "Partner 2",
-      imageUrl: "src/assets/logo2.jpeg",
+      imageUrl: "./src/assets/logo2.jpeg",
       alt: "Partner 2 logo"
     },
     {
       id: 3,
       name: "Partner 3",
-      imageUrl: "src/assets/logo3.jpeg",
+      imageUrl: "./src/assets/logo3.jpeg",
       alt: "Partner 3 logo"
     },
     {
       id: 4,
       name: "Partner 4",
-      imageUrl: "src/assets/logo4.jpeg",
+      imageUrl: "./src/assets/logo4.jpeg",
       alt: "Partner 4 logo"
     },
     {
       id: 5,
       name: "Partner 5",
-      imageUrl: "src/assets/logo5.jpeg",
+      imageUrl: "./src/assets/logo5.jpeg",
       alt: "Partner 5 logo"
     },
     {
       id: 6,
       name: "Partner 6",
-      imageUrl: "src/assets/logo6.jpeg",
+      imageUrl: "./src/assets/logo6.jpeg",
       alt: "Partner 6 logo"
     }
   ];

@@ -88,10 +88,11 @@ const GetInvolved = () => {
         </div>
 
         {/* Donation Tracker */}
+        {/*
         <div className="mt-16">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Progress Tracker</h3>
           <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-            <LineChart width={600} height={400} data={data}>
+            <LineChart width={400} height={400} data={data}>
               <XAxis dataKey="name" />
               <YAxis />
               <CartesianGrid strokeDasharray="3 3" />
@@ -102,6 +103,7 @@ const GetInvolved = () => {
             </LineChart>
           </div>
         </div>
+        */}
       </div>
     </section>
   );
