@@ -1,12 +1,17 @@
 // server/controllers/donationsController.js
-const axios = require('axios');
+import Donation from "../models/donation.js";
 
-const createOneTimeDonation = async (req, res) => {
-  // Logic to process one-time donation with PayFast
+export const processDonation = async (req, res) => {
+  const { name, email, amount, frequency } = req.body;
+
+  try {
+    const donation = new Donation({ name, email, amount, frequency });
+    await donation.save();
+    res.status(201).json({ message: "Donation initialized", donation });
+  } catch (error) {
+    res.status(500).json({ message: "Server error", error });
+  }
 };
 
-const createRecurringDonation = async (req, res) => {
-  // Logic to set up a recurring donation with PayFast
-};
 
-module.exports = { createOneTimeDonation, createRecurringDonation };
+
